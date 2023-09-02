@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.1) # for CMAKE_CXX_STANDARD
 set(CMAKE_CXX_STANDARD 11)
 
+
 include(GNUInstallDirs)
 macro(ncnn_install_tool toolname)
     install(TARGETS ${toolname} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
@@ -17,6 +18,7 @@ add_subdirectory(caffe)
 add_subdirectory(mxnet)
 add_subdirectory(onnx)
 add_subdirectory(darknet)
+add_subdirectory(pnnx)
 if(NCNN_INT8)
     add_subdirectory(quantize)
 else()

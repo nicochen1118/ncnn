@@ -21,34 +21,33 @@ class Model(nn.Module):
         super(Model, self).__init__()
 
     def forward(self, x, y, z):
-        out0 = torch.maximum(x, y)
-        out1 = torch.maximum(y, y)
-        out2 = torch.maximum(z, torch.ones_like(z) + 0.1)
-        return out0, out1, out2
-        
+        x = torch.positive(x)
+        y = torch.positive(y)
+        z = torch.positive(z)
+        return x, y, z
 
 def test():
     net = Model()
     net.eval()
 
     torch.manual_seed(0)
-    x = torch.rand(3, 16)
-    y = torch.rand(3, 16)
-    z = torch.rand(5, 9, 3)
+    x = torch.rand(1, 3, 16)
+    y = torch.rand(1, 5, 9, 11)
+    z = torch.rand(14, 8, 5, 9, 10)
 
     a = net(x, y, z)
 
     # export torchscript
     mod = torch.jit.trace(net, (x, y, z))
-    mod.save("test_torch_maximum.pt")
+    mod.save("test_torch_positive.pt")
 
     # torchscript to pnnx
     import os
-    os.system("../src/pnnx test_torch_maximum.pt inputshape=[3,16],[3,16],[5,9,3]")
+    os.system("../src/pnnx test_torch_positive.pt inputshape=[1,3,16],[1,5,9,11],[14,8,5,9,10]")
 
     # pnnx inference
-    import test_torch_maximum_pnnx
-    b = test_torch_maximum_pnnx.test_inference()
+    import test_torch_positive_pnnx
+    b = test_torch_positive_pnnx.test_inference()
 
     for a0, b0 in zip(a, b):
         if not torch.equal(a0, b0):

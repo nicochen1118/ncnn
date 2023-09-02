@@ -19,18 +19,18 @@ Developers can easily deploy deep learning algorithm models to the mobile platfo
 create intelligent APPs, and bring the artificial intelligence to your fingertips.
 ncnn is currently being used in many Tencent applications, such as QQ, Qzone, WeChat, Pitu and so on.
 
-ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架。
-ncnn 从设计之初深刻考虑手机端的部署和使用。
-无第三方依赖，跨平台，手机端 cpu 的速度快于目前所有已知的开源框架。
-基于 ncnn，开发者能够将深度学习算法轻松移植到手机端高效执行，
-开发出人工智能 APP，将 AI 带到你的指尖。
-ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天天 P 图等。
+ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架�?
+ncnn 从设计之初深刻考虑手机端的部署和使用�?
+无第三方依赖，跨平台，手机端 cpu 的速度快于目前所有已知的开源框架�?
+基于 ncnn，开发者能够将深度学习算法轻松移植到手机端高效执行�?
+开发出人工智能 APP，将 AI 带到你的指尖�?
+ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天天 P 图等�?
 
 ---
 
-## 技术交流 QQ 群：637093648 (超多大佬) 答案：卷卷卷卷卷 （已满）
+## 技术交�? QQ 群：637093648 (超多大佬) 答案：卷卷卷卷卷 （已满）
 
-## Pocky QQ 群（MLIR YES!）: 677104663(超多大佬) 答案：multi-level intermediate representation
+## Pocky QQ 群（MLIR YES!�?: 677104663(超多大佬) 答案：multi-level intermediate representation
 
 ## Telegram Group <https://t.me/ncnnyes>
 
@@ -42,22 +42,22 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 
 | System            | CPU (32bit)                                                         | CPU (64bit)                                                                     | GPU (32bit)                                                     | GPU (64bit)                                                         |
 | :---------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------ | :-------------------------------------------------------------- | :------------------------------------------------------------------ |
-| Linux (GCC)       | [![Build Status][pass-linux-x86-cpu-gcc]][ci-linux-x86-cpu-gcc]     | [![Build Status][pass-linux-x64-cpu-gcc]][ci-linux-x64-cpu-gcc]                 | —                                                               | [![Build Status][pass-linux-x64-gpu-gcc]][ci-linux-x64-gpu-gcc]     |
-| Linux (Clang)     | [![Build Status][pass-linux-x86-cpu-clang]][ci-linux-x86-cpu-clang] | [![Build Status][pass-linux-x64-cpu-clang]][ci-linux-x64-cpu-clang]             | —                                                               | [![Build Status][pass-linux-x64-gpu-clang]][ci-linux-x64-gpu-clang] |
-| Linux (ARM)       | [![Build Status][pass-linux-arm-cpu-gcc]][ci-linux-arm-cpu-gcc]     | [![Build Status][pass-linux-aarch64-cpu-gcc]][ci-linux-aarch64-cpu-gcc]         | —                                                               | —                                                                   |
-| Linux (MIPS)      | [![Build Status][pass-linux-mips-cpu-gcc]][ci-linux-mips-cpu-gcc]   | [![Build Status][pass-linux-mips64-cpu-gcc]][ci-linux-mips64-cpu-gcc]           | —                                                               | —                                                                   |
-| Linux (RISC-V)    | —                                                                   | [![Build Status][pass-linux-riscv64-cpu-gcc]][ci-linux-riscv64-cpu-gcc]         | —                                                               | —                                                                   |
-| Linux (LoongArch) | —                                                                   | [![Build Status][pass-linux-loongarch64-cpu-gcc]][ci-linux-loongarch64-cpu-gcc] | —                                                               | —                                                                   |
-| Windows           | [![Build Status][pass-windows-x86-cpu]][ci-windows-x86-cpu]         | [![Build Status][pass-windows-x64-cpu]][ci-windows-x64-cpu]                     | —                                                               | [![Build Status][pass-windows-x64-gpu]][ci-windows-x64-gpu]         |
-| Windows (ARM)     | [![Build Status][pass-windows-arm-cpu]][ci-windows-arm-cpu]         | [![Build Status][pass-windows-arm64-cpu]][ci-windows-arm64-cpu]                 | —                                                               | —                                                                   |
-| macOS             | —                                                                   | [![Build Status][pass-macos-x64-cpu]][ci-macos-x64-cpu]                         | —                                                               | [![Build Status][pass-macos-x64-gpu]][ci-macos-x64-gpu]             |
-| macOS (ARM)       | —                                                                   | [![Build Status][pass-macos-arm64-cpu]][ci-macos-arm64-cpu]                     | —                                                               | [![Build Status][pass-macos-arm64-gpu]][ci-macos-arm64-gpu]         |
+| Linux (GCC)       | [![Build Status][pass-linux-x86-cpu-gcc]][ci-linux-x86-cpu-gcc]     | [![Build Status][pass-linux-x64-cpu-gcc]][ci-linux-x64-cpu-gcc]                 | �?                                                               | [![Build Status][pass-linux-x64-gpu-gcc]][ci-linux-x64-gpu-gcc]     |
+| Linux (Clang)     | [![Build Status][pass-linux-x86-cpu-clang]][ci-linux-x86-cpu-clang] | [![Build Status][pass-linux-x64-cpu-clang]][ci-linux-x64-cpu-clang]             | �?                                                               | [![Build Status][pass-linux-x64-gpu-clang]][ci-linux-x64-gpu-clang] |
+| Linux (ARM)       | [![Build Status][pass-linux-arm-cpu-gcc]][ci-linux-arm-cpu-gcc]     | [![Build Status][pass-linux-aarch64-cpu-gcc]][ci-linux-aarch64-cpu-gcc]         | �?                                                               | �?                                                                   |
+| Linux (MIPS)      | [![Build Status][pass-linux-mips-cpu-gcc]][ci-linux-mips-cpu-gcc]   | [![Build Status][pass-linux-mips64-cpu-gcc]][ci-linux-mips64-cpu-gcc]           | �?                                                               | �?                                                                   |
+| Linux (RISC-V)    | �?                                                                   | [![Build Status][pass-linux-riscv64-cpu-gcc]][ci-linux-riscv64-cpu-gcc]         | �?                                                               | �?                                                                   |
+| Linux (LoongArch) | �?                                                                   | [![Build Status][pass-linux-loongarch64-cpu-gcc]][ci-linux-loongarch64-cpu-gcc] | �?                                                               | �?                                                                   |
+| Windows           | [![Build Status][pass-windows-x86-cpu]][ci-windows-x86-cpu]         | [![Build Status][pass-windows-x64-cpu]][ci-windows-x64-cpu]                     | �?                                                               | [![Build Status][pass-windows-x64-gpu]][ci-windows-x64-gpu]         |
+| Windows (ARM)     | [![Build Status][pass-windows-arm-cpu]][ci-windows-arm-cpu]         | [![Build Status][pass-windows-arm64-cpu]][ci-windows-arm64-cpu]                 | �?                                                               | �?                                                                   |
+| macOS             | �?                                                                   | [![Build Status][pass-macos-x64-cpu]][ci-macos-x64-cpu]                         | �?                                                               | [![Build Status][pass-macos-x64-gpu]][ci-macos-x64-gpu]             |
+| macOS (ARM)       | �?                                                                   | [![Build Status][pass-macos-arm64-cpu]][ci-macos-arm64-cpu]                     | �?                                                               | [![Build Status][pass-macos-arm64-gpu]][ci-macos-arm64-gpu]         |
 | Android           | [![Build Status][pass-android-armv7-cpu]][ci-android-armv7-cpu]     | [![Build Status][pass-android-armv8-cpu]][ci-android-armv8-cpu]                 | [![Build Status][pass-android-armv7-gpu]][ci-android-armv7-gpu] | [![Build Status][pass-android-armv8-gpu]][ci-android-armv8-gpu]     |
 | Android-x86       | [![Build Status][pass-android-x86-cpu]][ci-android-x86-cpu]         | [![Build Status][pass-android-x64-cpu]][ci-android-x64-cpu]                     | [![Build Status][pass-android-x86-gpu]][ci-android-x86-gpu]     | [![Build Status][pass-android-x64-gpu]][ci-android-x64-gpu]         |
-| iOS               | [![Build Status][pass-ios-cpu]][ci-ios-cpu]                         | [![Build Status][pass-ios-cpu]][ci-ios-cpu]                                     | —                                                               | [![Build Status][pass-ios-arm64-gpu]][ci-ios-arm64-gpu]             |
-| iOS Simulator     | [![Build Status][pass-ios-simulator]][ci-ios-simulator]             | [![Build Status][pass-ios-simulator]][ci-ios-simulator]                         | —                                                               | [![Build Status][pass-ios-simulator-gpu]][ci-ios-simulator-gpu]     |
-| WebAssembly       | [![Build Status][pass-web-assembly]][ci-web-assembly]               | —                                                                               | —                                                               | —                                                                   |
-| RISC-V GCC/Newlib | [![Build Status][pass-elf-riscv32-cpu-gcc]][ci-elf-riscv32-cpu-gcc] | [![Build Status][pass-elf-riscv64-cpu-gcc]][ci-elf-riscv64-cpu-gcc]             | —                                                               | —                                                                   |
+| iOS               | [![Build Status][pass-ios-cpu]][ci-ios-cpu]                         | [![Build Status][pass-ios-cpu]][ci-ios-cpu]                                     | �?                                                               | [![Build Status][pass-ios-arm64-gpu]][ci-ios-arm64-gpu]             |
+| iOS Simulator     | [![Build Status][pass-ios-simulator]][ci-ios-simulator]             | [![Build Status][pass-ios-simulator]][ci-ios-simulator]                         | �?                                                               | [![Build Status][pass-ios-simulator-gpu]][ci-ios-simulator-gpu]     |
+| WebAssembly       | [![Build Status][pass-web-assembly]][ci-web-assembly]               | �?                                                                               | �?                                                               | �?                                                                   |
+| RISC-V GCC/Newlib | [![Build Status][pass-elf-riscv32-cpu-gcc]][ci-elf-riscv32-cpu-gcc] | [![Build Status][pass-elf-riscv64-cpu-gcc]][ci-elf-riscv64-cpu-gcc]             | �?                                                               | �?                                                                   |
 
 [pass-android-armv7-cpu]: https://img.shields.io/github/actions/workflow/status/Tencent/ncnn/android-armv7-cpu.yml?branch=master
 [pass-android-armv7-gpu]: https://img.shields.io/github/actions/workflow/status/Tencent/ncnn/android-armv7-gpu.yml?branch=master
@@ -222,7 +222,7 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 
 **[use ncnn with alexnet](https://github.com/Tencent/ncnn/wiki/use-ncnn-with-alexnet) with detailed steps, recommended for beginners :)**
 
-**[ncnn 组件使用指北 alexnet](https://github.com/Tencent/ncnn/wiki/use-ncnn-with-alexnet.zh) 附带详细步骤，新人强烈推荐 :)**
+**[ncnn 组件使用指北 alexnet](https://github.com/Tencent/ncnn/wiki/use-ncnn-with-alexnet.zh) 附带详细步骤，新人强烈推�? :)**
 
 **[use netron for ncnn model visualization](https://netron.app)**
 
@@ -260,19 +260,19 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 - Extensible model design, supports 8bit quantization and half-precision floating point storage, can import caffe/pytorch/mxnet/onnx/darknet/keras/tensorflow(mlir) models
 - Support direct memory zero copy reference load network model
 - Can be registered with custom layer implementation and extended
-- Well, it is strong, not afraid of being stuffed with 卷 QvQ
+- Well, it is strong, not afraid of being stuffed with �? QvQ
 
 ## 功能概述
 
 - 支持卷积神经网络，支持多输入和多分支结构，可计算部分分支
-- 无任何第三方库依赖，不依赖 BLAS/NNPACK 等计算框架
-- 纯 C++ 实现，跨平台，支持 Android / iOS 等
+- 无任何第三方库依赖，不依�? BLAS/NNPACK 等计算框�?
+- �? C++ 实现，跨平台，支�? Android / iOS �?
 - ARM Neon 汇编级良心优化，计算速度极快
-- 精细的内存管理和数据结构设计，内存占用极低
+- 精细的内存管理和数据结构设计，内存占用极�?
 - 支持多核并行计算加速，ARM big.LITTLE CPU 调度优化
-- 支持基于全新低消耗的 Vulkan API GPU 加速
-- 可扩展的模型设计，支持 8bit [量化](tools/quantize) 和半精度浮点存储，可导入 caffe/pytorch/mxnet/onnx/darknet/keras/tensorflow(mlir) 模型
-- 支持直接内存零拷贝引用加载网络模型
+- 支持基于全新低消耗的 Vulkan API GPU 加�?
+- 可扩展的模型设计，支�? 8bit [量化](tools/quantize) 和半精度浮点存储，可导入 caffe/pytorch/mxnet/onnx/darknet/keras/tensorflow(mlir) 模型
+- 支持直接内存零拷贝引用加载网络模�?
 - 可注册自定义层实现并扩展
 - 恩，很强就是了，不怕被塞卷 QvQ
 
@@ -280,23 +280,23 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 
 ## supported platform matrix
 
-- ✅ = known work and runs fast with good optimization
+- �? = known work and runs fast with good optimization
 - ✔️ = known work, but speed may not be fast enough
-- ❔ = shall work, not confirmed
+- �? = shall work, not confirmed
 - / = not applied
 
 |            | Windows | Linux | Android | macOS | iOS |
 | ---------- | ------- | ----- | ------- | ----- | --- |
-| intel-cpu  | ✔️      | ✔️    | ❔      | ✔️    | /   |
-| intel-gpu  | ✔️      | ✔️    | ❔      | ❔    | /   |
-| amd-cpu    | ✔️      | ✔️    | ❔      | ✔️    | /   |
-| amd-gpu    | ✔️      | ✔️    | ❔      | ❔    | /   |
-| nvidia-gpu | ✔️      | ✔️    | ❔      | ❔    | /   |
-| qcom-cpu   | ❔      | ✔️    | ✅      | /     | /   |
-| qcom-gpu   | ❔      | ✔️    | ✔️      | /     | /   |
-| arm-cpu    | ❔      | ❔    | ✅      | /     | /   |
-| arm-gpu    | ❔      | ❔    | ✔️      | /     | /   |
-| apple-cpu  | /       | /     | /       | ✔️    | ✅  |
+| intel-cpu  | ✔️      | ✔️    | �?      | ✔️    | /   |
+| intel-gpu  | ✔️      | ✔️    | �?      | �?    | /   |
+| amd-cpu    | ✔️      | ✔️    | �?      | ✔️    | /   |
+| amd-gpu    | ✔️      | ✔️    | �?      | �?    | /   |
+| nvidia-gpu | ✔️      | ✔️    | �?      | �?    | /   |
+| qcom-cpu   | �?      | ✔️    | �?      | /     | /   |
+| qcom-gpu   | �?      | ✔️    | ✔️      | /     | /   |
+| arm-cpu    | �?      | �?    | �?      | /     | /   |
+| arm-gpu    | �?      | �?    | ✔️      | /     | /   |
+| apple-cpu  | /       | /     | /       | ✔️    | �?  |
 | apple-gpu  | /       | /     | /       | ✔️    | ✔️  |
 | ibm-cpu    | /       | ✔️     | /       | /    | /  |
 
@@ -329,3 +329,4 @@ ncnn 目前已在腾讯多款应用中使用，如：QQ，Qzone，微信，天�
 ## License
 
 [BSD 3 Clause](LICENSE.txt)
+
